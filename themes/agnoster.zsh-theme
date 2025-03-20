@@ -55,7 +55,7 @@ esac
 
 # user@host
 : ${AGNOSTER_CONTEXT_FG:=${CURRENT_DEFAULT_FG}}
-: ${AGNOSTER_CONTEXT_BG:=black}
+: ${AGNOSTER_CONTEXT_BG:=grey}
 
 # Git related
 : ${AGNOSTER_GIT_CLEAN_FG:=${CURRENT_FG}}
