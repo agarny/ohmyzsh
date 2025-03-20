@@ -55,7 +55,7 @@ esac
 
 # user@host
 : ${AGNOSTER_CONTEXT_FG:=${CURRENT_DEFAULT_FG}}
-: ${AGNOSTER_CONTEXT_BG:=grey}
+: ${AGNOSTER_CONTEXT_BG:=black}
 
 # Git related
 : ${AGNOSTER_GIT_CLEAN_FG:=${CURRENT_FG}}
@@ -352,8 +352,6 @@ prompt_aws() {
 
 ## Main prompt
 build_prompt() {
-  RETVAL=$?
-  prompt_status
   prompt_virtualenv
   prompt_aws
   prompt_context
